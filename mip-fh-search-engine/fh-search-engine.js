@@ -16,10 +16,10 @@ define(function () {
         return /\.google\./i.test(urlHref);
     })());
     module.yahoo = ((function () {
-        return /\.yahoo\./i.test(urlReferrer );
+        return /\.yahoo\./i.test(urlReferrer);
     })());
     module.yahoo = ((function () {
-        return /\.yahoo\./i.test(urlHref );
+        return /\.yahoo\./i.test(urlHref);
     })());
     module.msn = ((function () {
         return /\.msn\./i.test(urlReferrer);
